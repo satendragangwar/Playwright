@@ -336,12 +336,3 @@ Selects one or more options in a `<select>` element matching the locator.
   }
   ```
 
-## Adding Further Actions
-
-To add more Playwright actions (e.g., `dblclick`, `dragAndDrop`, `waitForSelector`):
-
-1.  Add a new async function to `src/controllers/actionController.js` following the pattern of existing actions (`click`, `fill`, etc.), using the `handleAction` helper.
-2.  Export the new function from `actionController.js`.
-3.  Add a corresponding route in `src/routes/actionRoutes.js`.
-
-Refer to the [Playwright Input Actions Documentation](https://playwright.dev/docs/input) for details on available actions and their options.
