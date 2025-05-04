@@ -1,0 +1,20 @@
+{
+  "name": "playwright-assigment",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0",
+    "express-session": "^1.18.1",
+    "node-fetch": "^2.7.0",
+    "playwright": "^1.52.0",
+    "uuid": "^11.1.0"
+  }
+}
