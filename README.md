@@ -22,7 +22,7 @@ This project provides a REST API service built with Node.js and Express.js to ex
 
     ```bash
     git clone <repository-url>
-    cd playwright-action-api
+    cd playwright
     ```
 
 2.  **Install dependencies:**
